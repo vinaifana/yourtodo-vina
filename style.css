@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #7748cc;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+.hero {
+  padding: 10rem 9% 2rem;
+}
+
+.container {
+  width: 590px;
+  height: 100vh;
+  margin-left: 10rem;
+}
+.header {
+  padding: 20px;
+  color: #ffff;
+  background-color: #e96ae9;
+  border-radius: 1.5rem;
+  margin-bottom: 25px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+}
+.title i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+.description {
+  font-size: 13px;
+}
+.card {
+  background-color: #ffba5e;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.input-control {
+  width: 100%;
+  display: block;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 0.7rem;
+  margin-bottom: 15px;
+}
+::placeholder {
+  color: #7e7b4e;
+  font-size: 13px;
+}
+.text-right {
+  text-align: right;
+}
+.btn_add {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: #fff;
+  background-color: #7748cc;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 600;
+}
+.task-item {
+  display: flex;
+  justify-content: space-between;
+}
+.edit-task {
+  color: #e96ae9;
+  font-size: 20px;
+}
+.delete-task {
+  color: #8d5be9;
+  font-size: 20px;
+}
+.done {
+  text-decoration: line-through;
+  color: #FFCD89;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-family: "Gill Sans", sans-serif;
+}
+.right img {
+  width: 100%;
+}
+.left {
+  margin-top: 10rem;
+}
+
+.text {
+  display: flex;
+}
+.todo_heading {
+  margin-top: 3rem;
+  color: #ffba5d;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 116%;
+  letter-spacing: 0.08px;
+}
+.here {
+  color: #fff;
+  margin-top: 1rem;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 116%;
+  letter-spacing: 0.08px;
+  margin-bottom: 5rem;
+}
+.btn_home {
+  margin-top: 5rem;
+  padding: 1rem 2.8rem;
+  font-size: 2rem;
+  border-radius: 4rem;
+  font-weight: 700;
+  font-family: "Gill Sans", sans-serif;
+  color: #7748cc;
+  background-color: #ffba5d;
+  transition: transform 0.2s ease;
+}
+.btn_home:active{
+  transform: scale(0.96);
+  background-color: #e96ae9;
+  color: #fff;
+}
+.container_parent {
+  display: flex;
+}
+.text_mytodo {
+  display: flex;
+}
+.mytodo_body {
+  padding: 10rem 9% 2rem;
+}
+.image img {
+  width: 110%;
+  margin-top: -4rem;
+}
+.todo_head {
+  margin-top: 4.8rem;
+  margin-left: 10.3;
+  color: #fff;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 116%;
+  letter-spacing: 0.08px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.body_edit {
+  padding: 10rem 9% 2rem;
+}
+.btn_save {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1rem;
+  background-color: #7748cc;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.08px;
+}
+.add_todo{
+  color: #fff;
+  font-family: 'Gill Sans', sans-serif;
+}
+@media (max-width: 1200px){
+  .right img{
+    width: 100%;
+    margin-top: -6rem;
+  }
+  .hero{
+    padding: 10rem 4% 1rem;
+  }
+  .left{
+    margin-top: 4rem;
+    margin-right: 3rem;
+  }
+  .left img{
+    margin-top: -2rem;
+    width: 60%;
+  }
+  .todo_heading{
+    font-size: 50px;
+  }
+  .here{
+    font-size: 55px;
+  }
+  .btn_home{
+    font-size: 1rem;
+  }
+  .mytodo_body{
+    padding: 10rem 4% 1rem;
+  }
+  .image img{
+    width: 125%;
+    margin-top: -2rem;
+  }
+  .todo_head{
+    margin-top: 5.5rem;
+    font-size: 30px;
+  }
+  .body_edit{
+    padding: 10rem 4% 1rem;
+  }
+}
+@media (max-width: 991px){
+  .hero{
+    display: block;
+  }
+  .left{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .left img{
+    margin-top: -10rem;
+    width: 30%;
+  }
+  .left .text{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .todo_heading{
+    font-size: 80px;
+  }
+  .here{
+    font-size: 100px;
+  }
+  .right img{
+    margin-top: 3rem;
+  }
+  .btn_home{
+    font-size: 2.3rem;
+  }
+  .container_parent{
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .image img{
+    width: 100%;
+    margin-top: -6rem;
+  }
+  .text_mytodo{
+    align-items: center;
+    justify-content: center;
+    padding: 0 4% 1rem;
+  }
+  .todo_head{
+    font-size: 50px;
+    margin-left: 0;
+  }
+  .container{
+    padding:  auto 2rem;
+  }
+
+}
+@media (max-width: 450px){
+  .hero{
+    align-items: center;
+    justify-content: center;
+  }
+  .left img{
+    width: 70%;
+    margin-right: -5rem;
+  }
+  .todo_heading{
+    font-size: 65px;
+    margin-right: -3rem;
+  }
+  .here{
+    font-size: 80px;
+    margin-right: -4rem;
+  }
+  .btn_home{
+    font-size: 2.3rem;
+    margin-right: -3rem;
+  }
+  .image img{
+    width: 140%;
+    margin-right: 1rem;
+  }
+
+  .container{
+    width: 130%;
+    margin-left: 1.5rem;
+    margin-top: -2rem;
+  }
+
+}
